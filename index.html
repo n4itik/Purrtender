@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Primary Meta Tags -->
+    <title>Purrtender</title>
+    <meta name="title" content="Purrtender" />
+    <meta name="description" content="Swipe, Chat, Purr." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://purrtender.netlify.app" />
+    <meta property="og:title" content="Purrtender" />
+    <meta property="og:description" content="Swipe, Chat, Purr." />
+    <meta
+      property="og:image"
+      content="https://purrtender.netlify.app/images/preview.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://purrtender.netlify.app" />
+    <meta property="twitter:title" content="Purrtender" />
+    <meta property="twitter:description" content="Swipe, Chat, Purr." />
+    <meta
+      property="twitter:image"
+      content="https://purrtender.netlify.app/images/preview.png"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img
+          class="nav-icon"
+          src="images/icon-profile.png"
+          alt="Profile"
+          draggable="false"
+        />
+        <img
+          class="logo"
+          src="images/logo.png"
+          alt="Purrtender"
+          draggable="false"
+        />
+        <img
+          class="nav-icon"
+          src="images/icon-chat.png"
+          alt="Chat"
+          draggable="false"
+        />
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="pfp-container"></div>
+        <div class="btn-container">
+          <div id="btn-reject">
+            <img src="images/icon-cross.png" alt="Reject" draggable="false" />
+          </div>
+          <div id="btn-accept">
+            <img src="images/icon-heart.png" alt="Accept" draggable="false" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="/index.js" type="module"></script>
+  </body>
+</html>
