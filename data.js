@@ -49,7 +49,7 @@ const cats = [
   },
   {
     name: "Smokey",
-    avatar: "images/cat-smokey.png",
+    avatar: "images/cat-smokey.jpg",
     age: 21,
     bio: "Seeking deep conversations and endless chin scratches.",
     hasBeenSwiped: false,
