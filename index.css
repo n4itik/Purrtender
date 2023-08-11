@@ -27,6 +27,7 @@ body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
   background: linear-gradient(180deg, #fff 0%, #f6f7fb 100%);
+  color: #f8f8f8;
   user-select: none;
   flex-direction: column;
 }
@@ -100,7 +101,6 @@ header .container {
   position: absolute;
   bottom: 1.25em;
   left: 1em;
-  color: #f8f8f8;
   text-shadow: #000 1px 0 5px;
 }
 
@@ -154,4 +154,6 @@ header .container {
 .finished {
   padding: 1em;
   text-align: center;
+  background: linear-gradient(270deg, #fa695a 0%, #f83375 100%);
+  border-radius: 15px;
 }
