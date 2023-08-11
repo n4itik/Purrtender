@@ -2,9 +2,14 @@ import cats from "./data.js";
 import Cat from "./Cat.js";
 
 let isWaiting = false;
+const logo = document.querySelector(".logo");
 const pfpContainer = document.querySelector(".pfp-container");
 const rejectBtn = document.getElementById("btn-reject");
 const acceptBtn = document.getElementById("btn-accept");
+
+logo.addEventListener("click", () => {
+  window.location.reload();
+});
 
 function getNewCat() {
   const nextCat = cats.shift();
