@@ -1,6 +1,6 @@
 # <img src="favicon/android-chrome-512x512.png" width="24"> Purrtender
 
-Purrtender is a simple Tinder clone for cats.
+Purrtender is a Tinder clone for cats.
 
 ### Screenshot
 
